@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Books | Ecommerce Website Desig</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="Assets/logo.png" width="125px">
+            </div>
+            <nav id="a">
+                <ul id="MenuItems">
+                    <li><a href="index2.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="Account.html">Account</a></li>
+                </ul>
+            </nav>
+            <img src="Assets/cart.png" width="30px" height="30px">
+            <img src="Assets/menu.png" class="menu-icon" onclick="menutoggle()">
+
+        </div>
+    </div>
+
+
+
+    <!----Single Product Details-->
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="Assets/img1.jpg" width="75%">
+            </div>
+            <div class="col-2">
+                <p>Home / Bhagavad Gita</p>
+                <h1>Bhagavad Gita</h1>
+                <h3>- By His Divine Grace AC Bhaktivedant Swami Shrila Prabhupad</h3>
+                <h4>Rs.220</h4>
+
+                <input type="number" value="1">
+                <a href="cart.html" class="btn">Add To Cart</a>
+                <h3>Product Details  <span class="fa fa-indent"></span></h3>
+                <br>
+                <p>Bhagavad Gita is the battlefield conversation between Krishna and His friend Arjuna. The Bhagavad
+                    Gita is the primary spiritual text from India. It is an introduction to the Vedas.</p>
+            </div>
+        </div>
+    </div>
+
+<!----------------Title----------------->
+<div class="small-container">
+    <div class="row row-2">
+    <h2>Related Products</h2>
+   <a href="products.html"><p>View More</p></a> 
+
+    </div>
+</div>
+
+<!----------------Products----------------->
+
+    <div class="small-container">
+        <div class="row">
+
+            <div class="col-4">
+                <img src="Assets/img6.jpg">
+                <h4>Bhagavad Gita- As it is</h4>
+                <div class="rating">
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star-o"></span>
+
+                </div>
+                <p>Rs.100</p>
+            </div>
+            <div class="col-4">
+                <img src="Assets/img2.jpg">
+                <h4>The Science of Self-Realization</h4>
+                <div class="rating">
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star-o"></span>
+
+                </div>
+                <p>Rs.100</p>
+            </div>
+
+
+
+
+
+
+            <div class="col-4">
+                <img src="Assets/img13.jpg">
+                <h4>A Second Chance </h4>
+                <div class="rating">
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star-o"></span>
+                    <span class="fa fa-star-o"></span>
+
+                </div>
+                <p>Rs.50</p>
+            </div>
+            <div class="col-4">
+                <img src="Assets/img14.jpg">
+                <h4>Mahabharata</h4>
+                <div class="rating">
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star-o"></span>
+                    <span class="fa fa-star-o"></span>
+
+                </div>
+                <p>Rs.50</p>
+            </div>
+            <div class="col-4">
+                <img src="Assets/img15.jpg">
+                <h4>Srimad Bhagavatam</h4>
+                <div class="rating">
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star-o"></span>
+                    <span class="fa fa-star-o"></span>
+
+                </div>
+                <p>Rs.50</p>
+            </div>
+        </div>
+
+    </div>
+
+    <!-----Footer-->
+    <div class="footer">
+        <h1>@Vedabooks.com</h1>
+
+    </div>
+    <!-------js for toggle menu -->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px"
+            }
+            else {
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+</body>
+
+</html>

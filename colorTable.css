@@ -1,0 +1,28 @@
+body{
+    background-color: lightsalmon;
+}
+.equal-height-container{
+    max-width: 900px;
+    margin:0 auto;
+    display:flex;
+}
+.first{
+    background-color:#FFF;
+    padding:20px;
+    flex:1;
+}
+.second{
+    background-color: brown;
+    flex:1;
+    display:flex;
+    flex-direction: column;
+}
+.second-a{
+    background-color:blueviolet;
+    flex:1;
+    
+}
+.second-b{
+    background-color: darkcyan;
+    flex:1;
+}

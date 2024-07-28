@@ -1,0 +1,65 @@
+body{
+    background-color: burlywood;
+    margin:0;
+    padding:0;
+  
+    align-items: stretch;
+}
+#one{
+    background-color: ghostwhite;
+    color: darkred;
+    display:inline-block;
+  margin:40px 0px 25px 20px;
+    padding:10px 10px 10px 10px;
+    width:300px;
+    height:200px;
+    font-family: cursive;
+    font-size: 150%;
+    align:left;
+    float:left;
+ 
+    
+
+}
+#two{
+    background-color: lightslategray;
+    color: darkred;
+    display:inline-block;
+    margin:40px 0px 0px 0px;
+    padding:10px 10px 10px 10px;
+   width:300px;
+    height:200px;
+    font-family: cursive;
+    font-size: 150%;
+    align:left;
+    float: center;
+   
+
+}
+#three{
+    background-color:limegreen;
+    color: darkred;
+    display:inline-block;
+    margin:40px 0px 0px 0px;
+    padding:10px 10px 10px 10px;
+    width:300px;
+    height:200px;
+    font-family: cursive;
+    font-size: 150%;
+    align:left;
+    float: left;
+
+
+}
+.hari{
+    background-color: brown;
+    font-weight: bold;
+}
+#main{
+    
+   background-color: crimson;
+   width:1000px;
+   height:300px;
+   
+   
+}

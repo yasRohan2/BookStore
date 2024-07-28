@@ -1,0 +1,66 @@
+body{
+    margin:0;
+    padding:0;
+}
+.one{
+    background-color: lightgreen;
+}
+ul {
+    background:pink;
+    padding:10px;
+}
+ul li{
+    background:beige;
+    padding:3px;
+    margin-left: 25px;
+
+
+}
+a.button:link,a.button:visited{
+background-color: white;
+color:black;
+border:2px solid green;
+padding:10px 20px;
+text-align: center;
+text-decoration: none;
+display:inline-block;
+border-radius: 25px;
+
+}
+a.button:hover,a.button:active{
+    background-color: green;
+    color:white;
+
+}
+div.cards {
+    background-color: antiquewhite;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-bottom: 30px;
+}
+div.caption {
+    text-align: center;
+    padding:10px 20px;
+   
+}
+.breakpoints {
+    color:cadetblue;
+  
+    padding:20px;
+}
+/*smallest screen size*/
+@media only screen and (max-width: 600px){
+    .breakpoints{background-color: green;}
+}
+/*small Screen size*/
+@media only screen and (min-width: 600px) {
+    .breakpoints{background-color:gold;}}
+/*mediam screen size*/
+@media only screen and (min-width: 768px) {
+    .breakpoints{background-color:antiquewhite;}}
+/*large screen size*/
+@media only screen and (min-width: 992px) {
+    .breakpoints{background-color:pink;}}
+    /*extra large screen size*/
+@media only screen and (min-width: 1200px) {
+    .breakpoints{background-color:orange;}}
